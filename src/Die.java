@@ -1,6 +1,10 @@
 import java.util.Random;
 
 public class Die {
+    /* This class is for die instances. Uses Random to decide value of die.
+     Uses an int to represent the die's number of sides. Uses another int to hold the latest die roll value.
+     Has getter-methods, a toString-method (for testing) and a roll method.
+     */
     private int currentValue;
     final private int numberOfSides;
 

@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 
 public class Player {
+    /* This class is pretty straight-forward. It is used to hold player name, score and dice.
+    It also contains methods to roll dice, update score etc. Nothing too complicated.
+     */
+
     String name;
     int score;
     ArrayList<Die> myDice = new ArrayList<>();
