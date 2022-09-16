@@ -38,4 +38,8 @@ public class Player {
     public void addDie(int numberOfSides) {
         myDice.add(new Die(numberOfSides));
     }
+
+    public String toString() {
+        return name + ": " + myDice + ": " + score;
+    }
 }

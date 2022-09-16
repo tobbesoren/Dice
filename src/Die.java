@@ -21,4 +21,8 @@ public class Die {
     public void roll() {
         currentValue = random.nextInt(numberOfSides) + 1;
     }
+
+    public String toString() {
+        return "" + numberOfSides;
+    }
 }
